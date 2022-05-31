@@ -34,7 +34,12 @@ class MainPage extends Component {
                 nameLocation: data.location.name,
                 weatherIcon: data.current.condition.icon,
                 temp: data.current.temp_c,
-                country: data.location.country
+                country: data.location.country,
+
+                wind: data.current.wind_kph,
+                humidity: data.current.humidity,
+                Precipitation: data.current.precip_mm,
+                Wind_direction: data.current.wind_dir
             })
         } catch (e) {
             console.log(e);
