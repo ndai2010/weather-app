@@ -1,8 +1,8 @@
-import './App.css';
-
+import './App.scss';
+import MainPage from './MainPage/MainPage';
 function App() {
   return (
-    <div>Helo</div>
+    <MainPage />
   );
 }
 
